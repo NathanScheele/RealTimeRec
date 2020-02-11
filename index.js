@@ -1,6 +1,5 @@
 const app = require('./server/server.js');
 const mongoose = require('mongoose');
-require('dotenv').config()
 
 //Specify port number
 let port = process.env.PORT || 3000;
