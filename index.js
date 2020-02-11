@@ -1,8 +1,9 @@
 const app = require('./server/server.js');
 const mongoose = require('mongoose');
+require('dotenv').config()
 
 //Specify port number
-let port = 3000;
+let port = process.env.PORT || 3000;
 
 //Connect to the database
 mongoose.connect(process.env.REAL_REC_MONGODB_URI,
