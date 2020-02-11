@@ -13,4 +13,5 @@ mongoose.connect(process.env.REAL_REC_MONGODB_URI,
     ).catch(err => {console.log(`DB Connection Error: ${err.message}`);})
 
 //Start the server on the specified port
-app.listen(port);
+// app.listen(port);
+app.listen(process.env.port);
