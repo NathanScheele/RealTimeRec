@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "An application, which tracks the number of people in the Rec Center, so that users are able to make a more informed decision on whether they should go now or later.",
   "main": "index.js",
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
   "scripts": {
     "start": "nodemon server.js"
   },
