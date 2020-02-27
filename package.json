@@ -6,6 +6,9 @@
   "scripts": {
     "start": "nodemon server.js"
   },
+  "engines": {
+    "node": "v12.14.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NathanScheele/RealTimeRec.git"
