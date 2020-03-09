@@ -12,6 +12,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/realtimerec');
 app.listen(port);
 
 module.exports(app)
+//below
 /*
 //Connect to the database
 mongoose.connect(process.env.REAL_REC_MONGODB_URI,
